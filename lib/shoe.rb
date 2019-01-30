@@ -6,7 +6,7 @@ class Shoe
     @color
     @size
     @material
-    @condition
+    @condition = condition
   end
   
   def cobble
