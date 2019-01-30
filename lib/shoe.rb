@@ -6,11 +6,11 @@ class Shoe
     @color
     @size
     @material
-    @condition = "New"
+    @condition
   end
   
   def cobble
-    @condition = "Repaired"
+    @condition = "New"
     puts "Your shoe is as good as new!"
   end
   
